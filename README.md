@@ -6,14 +6,19 @@ Bartop Battles does **not collect**, **store**, or **share** any personal data.
 ## Data Usage
 Bartop Battles may request access to the following device features:
 
-- **Camera**: Used only to take a group selfie for gameplay purposes. The photo remains on your device and is never uploaded or transmitted.
-- **Photo Library (optional)**: If accessed, it is only to save or retrieve the selfie locally within the app. No photo data is collected by the developer.
-- **Bluetooth**: Used for local multiplayer connectivity between devices. No personal data is transferred or stored through Bluetooth communication.
+- **Camera**: Used only to take a group selfie for gameplay purposes. The photo is processed locally and sent to a third-party service (Microsoft Face API) **only to identify individual faces** in the group photo. This processing helps the app assign faces to players in the game.  
+- **Photo Library**: Used only to **save** player face photos locally on the user’s device. The app does **not** retrieve photos from the photo library.  
 
-No analytics, advertising, or third-party tracking services are used in Bartop Battles.
+No login information or personal identifiers are collected or stored by the app or its developer.
 
 ## Third-Party Services
-Bartop Battles does not integrate with any third-party SDKs or services that collect personal data.
+Bartop Battles uses the **Microsoft Face API** solely to identify individual faces within the group photo.  
+- The face data sent to Microsoft Face API is used temporarily for processing and **is not stored or retained** by the service or the app developer.  
+- All face images and data remain on the user’s own device, such as saved photos in their photo library.
+
+## Data Storage
+No personal or face data is stored or transmitted beyond the user’s device except for the temporary face recognition process described above.  
+Photos and face data remain private and local to the user.
 
 ## Children's Privacy
 Bartop Battles is intended for general audiences. It does not knowingly collect data from children under 13. If you believe personal information has been unintentionally collected, please contact us and we will promptly delete it.
@@ -21,7 +26,7 @@ Bartop Battles is intended for general audiences. It does not knowingly collect 
 ## Contact
 If you have any questions or concerns about this privacy policy, feel free to reach out:
 
-📧 **[your email address or placeholder]**
+📧 **evayts1@gmail.com**
 
 ---
 
